@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="POST">
+        <div class="wrapper">
+            <div class="titulo">
+                <h1>Cadastro de Dev`s</h1>
+                <P>Complete sua formacao:</P> <br>
+            </div>
+            <fieldset>
+                <div clss = "dados-Pessoais">
+                    Nome: <br><input type="text">
+                    Sobrenome: <input type="text"><br>
+                    E-mail: <br><input type="email">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div class ="segmento">
+                    <div class="titulo">De qual lado da aplicacao voce desenvolve?</div> <br>
+                    <input type="radio">Front-end<br>
+                    <input type="radio">Back-end<br>
+                    <input type="radio">Full-Stack
+                </div>
+
+                <div class = "senioridade">
+                    <div class="titulo">Senioridade:</div> <br>
+                    <select name="senioridade" id="">
+                        <option value="selecione" selected>Selecione</option>
+                        <option value="inicio">Junior</option>
+                        <option value="meio">Pleno</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+        
+
+
+                <div class = tecnologias>
+                    <div class="titulo">Selcione as tecnologia que voce ultiliza:</div> <br>
+                    <input type="checkbox">Html
+                    <input type="checkbox">Css
+                    <input type="checkbox">JavaScript
+                    <input type="checkbox">PHP
+                    <input type="checkbox">C#
+                    <input type="checkbox">Python
+                    <input type="checkbox">Java
+                </div>
+
+                <div class="texto-area">
+                    <div class="titulo">conte um pouco da sua esperiencia:</div> <br>
+                    <textarea name="descricao"cols="60" rows="10"></textarea>
+                </div>
+
+            
+                <button value = "submit">Concluido</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

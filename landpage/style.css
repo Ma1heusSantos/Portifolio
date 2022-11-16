@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --card-background: #302f3d;
+   --text-color: #837e9f; 
+   --background:#22212c;
+}
+body{
+    background-color: var(--background);
+}
+aside{
+    
+    background-color: blue;
+}
+main{
+    background-color: red;
+}
