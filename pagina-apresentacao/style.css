@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://github.com/birobirobiro/nlw-esports/blob/master/assets/bg.jpg?raw=true);
+    width: 100%;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-perfil{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid #43e7ad;
+}
+.card{
+    height: 210px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    border:1px solid #2a2634;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 20px;
+    border-top-color: #43e7ad;
+    border-top-width:2px;
+    background-color: #2a2634;
+
+}
+.card p{
+    color:#ccc;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.imagens{
+    height: 90px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left: 1px;
+}
+.imagens-streamers{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left: 1px;
+}
+.icone{
+    height:30px;
+    width: 30px;
+    margin-top:10px;
+}
