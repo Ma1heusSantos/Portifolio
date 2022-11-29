@@ -1,10 +1,10 @@
 *{
     margin: 0;
-    box-sizing: border-box;
     font-family: sans-serif;
 }
 body{
     background-image: url(https://github.com/birobirobiro/nlw-esports/blob/master/assets/bg.jpg?raw=true);
+    background-position: center center;
     width: 100%;
 }
 main{
@@ -24,7 +24,6 @@ main{
     width: 450px;
     display: flex;
     flex-direction: column;
-    
     color:#fff;
     border:1px solid #2a2634;
     border-radius: 7px;
@@ -37,6 +36,20 @@ main{
 }
 .card p{
     color:#ccc;
+}
+.card-social{
+    height: 100px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    border:1px solid #2a2634;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding: 20px;
+    border-top-color: #43e7ad;
+    border-top-width:2px;
+    background-color: #2a2634;
 }
 ul{
     list-style: none;
