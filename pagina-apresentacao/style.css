@@ -17,14 +17,14 @@ main{
     height: 60px;
     width: 60px;
     border-radius: 30px;
-    border: 1px solid #43e7ad;
+    border: 2px solid #43e7ad;
 }
 .card{
     height: 210px;
     width: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     color:#fff;
     border:1px solid #2a2634;
     border-radius: 7px;
@@ -41,11 +41,14 @@ main{
 ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap:5px;
+
+
 }
 .imagens{
+    display: flex;
+    flex-direction: row;
     height: 90px;
     width: 70px;
     border-radius: 5px;
@@ -57,10 +60,17 @@ ul{
     width: 50px;
     border-radius: 5px;
     margin-top:10px;
-    margin-left: 1px;
 }
 .icone{
     height:30px;
     width: 30px;
     margin-top:10px;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+}
+.teste{
+    display: flex;
+    flex-direction: row;
 }
