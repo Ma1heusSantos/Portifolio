@@ -28,7 +28,6 @@ main{
     border:1px solid #2a2634;
     border-radius: 7px;
     margin-top: 20px;
-    padding: 20px;
     border-top-color: #43e7ad;
     border-top-width:2px;
     background-color: #2a2634;
@@ -36,6 +35,11 @@ main{
 }
 .card p{
     color:#ccc;
+}
+.card h1{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .card-social{
     height: 100px;
@@ -46,7 +50,6 @@ main{
     border:1px solid #2a2634;
     border-radius: 7px;
     margin-top: 20px;
-    padding: 20px;
     border-top-color: #43e7ad;
     border-top-width:2px;
     background-color: #2a2634;
@@ -79,11 +82,7 @@ ul{
     width: 30px;
     margin-top:10px;
 }
-.games{
-    display: flex;
-    flex-direction: column;
-}
-.teste{
+.card-images{
     display: flex;
     flex-direction: row;
 }
