@@ -1,1 +1,1 @@
-pasta 1 tempo de video 47:43
+pasta 1 tempo de video 1:34:24

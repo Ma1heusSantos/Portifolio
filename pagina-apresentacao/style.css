@@ -4,8 +4,8 @@
 }
 body{
     background-image: url(https://github.com/birobirobiro/nlw-esports/blob/master/assets/bg.jpg?raw=true);
-    background-position: center center;
-    width: 100%;
+    background-position:top;
+   object-fit: cover;
 }
 main{
     display:flex;
