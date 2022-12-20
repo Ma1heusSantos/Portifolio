@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 :root{
     font-size: 62.5%; /*tranforma em 10%*/
@@ -7,6 +8,7 @@
     --headline:hsl(210, 11%, 15%);
     --paragraph:hsl(210, 9%, 31%);
     --green-light:hsl(148, 23%, 89%);
+    --brand-bege:hsla(148, 23%, 89%, 1);
 }
 body{
     font-family:DM Sans;
@@ -18,28 +20,54 @@ header{
     margin-right: auto;
     margin-left: auto;
     background-color: var(--green-light);
-}
-h4{
-    font-size: 1.4rem;
-    color:var(--primary-color);
+    margin-top: 4.1rem;
+    
 }
 h1{
     font-size: 3.4rem;
     color:var(--headline);
     line-height: 130%;
+    margin-bottom: 2.4rem;
 }
+h4{ 
+    font-size: 1.4rem;
+    color:var(--primary-color);
+    margin-bottom: 1.6rem;
+}
+
 p{
     font-size: 1.8rem;
     line-height: 150%;
     font-weight: 400;
     color: var(--paragraph);
+    margin-bottom: 3.2rem;
 }
 button{
     background-color: var(--primary-color);
     border:none;
-    border-radius: 2.0rem;
+    border-radius: 4rem;
+    margin-bottom: 6.0rem;
+    width:26.3rem;
     padding: 1.0rem;
     color:#fff;
-    text-align: center;
 
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.stats{
+    position: absolute;
+    
+    width: 32.7rem;
+    height: 47rem;
+    margin-inline: auto;
+    text-align: center;
 }
