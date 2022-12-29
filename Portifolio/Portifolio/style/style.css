@@ -8,8 +8,9 @@
 :root{
     --primaria:#fc4c54;
     --secundaria:#ed8b95;
-    --fundo:#354463;
+    --fundo:#1d2434;
     --branco:#fff;
+    --teste:#354463;
     font-size: 62,5%;
 }
 body{
@@ -19,6 +20,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+  
 }
 .logo{
     font-size: 2.0rem;
@@ -32,7 +34,7 @@ header{
     gap: 2.0rem;
     color:var(--branco);
 }
-.sobre{
+.principal{
     display: flex;
     align-items: center;
 }
@@ -58,5 +60,20 @@ header{
 }
 aside{
     display: flex;
-
+}
+.sobre{
+    display: flex;
+}
+.imagem-sobre{
+    width: 50.0rem;
+    height: 50.0rem;
+}
+.texto-sobre{
+    width: 50.0rem;
+    height: 50.0rem;
+    color:var(--branco);
+}
+.texto-sobre p{
+    margin-top: 1.5rem;
+    background-color: #fc4c54;
 }
