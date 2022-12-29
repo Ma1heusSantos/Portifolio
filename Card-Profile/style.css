@@ -76,15 +76,4 @@ body{
     align-items: center;
     gap: 30px;
   }
-  .wrapper:hover .top {
-    background-color: var(--cinza);
-  }
-  .wrapper:hover .bottom {
-    background-color: var(--cinza);
-  }
-  .wrapper:hover .bottom h3 , p {
-   color:#fff
-  }
-  .wrapper:hover footer{
-    background-color: var(--cinza);
-  }
+  
