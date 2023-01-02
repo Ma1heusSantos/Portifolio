@@ -2,48 +2,57 @@
     font-family: sans-serif;
     
 }
+:root{
+    --corTexto:#4B0082;
+    --background:#B0C4DE;
+    --branco:#fff;
+}
 body{
-    background-color:#B0C4DE;
+    background-color:var(--background);
+    display: flex;
+    justify-content: center;
 }
 .dados-pessoais{
-    color:#4B0082;
+    color:var(--corTexto);
     font-weight: bold;
     padding-top: 20px;
     margin-left: 7%;
 }
 .texto-area{
-    color:#4B0082;
+    color:var(--corTexto);
     font-weight: bold;
     padding-top: 20px;
 
 }
 .tecnologias{
-    color:#4B0082;
+    color:var(--corTexto);
     font-weight: bold;
     padding-top: 20px;
 
 }
 .senioridade{
-    color:#4B0082;
+    color:var(--corTexto);
     font-weight: bold;
     padding-top: 20px;
 
 }
 .segmento{
-    color:#4B0082;
+    color:var(--corTexto);
     font-weight: bold;
     padding-top: 20px;
 
 }
 .titulo{
-    color:#4B0082;
+    color:var(--corTexto);
     font-weight: bold;
     padding-top: 20px;
 
 }
-button{
-    color:#fff;
-    background-color: #4B0082;
-    border-radius: 15px;
-    width: 50px;
+.button{
+    margin-top: 20px;
+    background-color: var(--corTexto);
+    color: var(--branco);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
 }
